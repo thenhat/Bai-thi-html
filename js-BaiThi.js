@@ -59,6 +59,7 @@ function validateForm() {
 var btnSubmit = document.forms['register-form']['btnSubmit'];
 btnSubmit.onclick = function () {
     if(validateForm()){
+        alert('Dang ky thanh cong');
         doRegister();
         document.getElementsByClassName('register-form').innerHTML='';
     }
